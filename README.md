@@ -8,10 +8,11 @@
     - Creare la funzione "isPalindrome"
         - Creare la variabile "text" per recuperare il dato in igresso della funzione
         - Creare la variabile "counter" (conta quante volte troviamo stessa lettera nel ciclo)
-        - Creare un ciclo che confronta prima e ultima lettera in progressione
+        - Creare la variabile "halfLenghtText", importante di arrotondare il valore per eccesso;
+        - Creare un ciclo che confronta prima e ultima lettera in progressione fino la meta dela parola(se il numero è dispari il valore centrale va confrontato con se stesso);
             - Creare operatore logico, se la prima e ultima lettera sono uguali - il counter cresce di 1.
-        - Creare la variabile "modulCounter"
-            - SE (modulCounter == 0){
+        - Creare operatore logico:
+            - SE (halfLengthText === counter){
                 return true;
             } 
     - Creare una variabile "text"
