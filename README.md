@@ -28,8 +28,14 @@
 - Pari o dispari 
 
     - Scelta numero pari o dispaari
-        - Dichiarare la variabile "choiceIsEven"
-        - Assegnare il valore trammite prompt
+        - Dichiarare la funzione "inputPrompt"
+        - Dichiarare la variabile "userChoice" e assegnare il return del inoutPrompt
+        - Dichiarare la variabile "isEven"
+            SE (choiceIsEven == "pari"){
+                isEven = true;
+            } else {
+                isEven = false;
+            }
     - Inserimento un numero da 1 a 5
         - Dichiarare la variabile "numberUser"
         - Assegnare il valore trammite prompt
