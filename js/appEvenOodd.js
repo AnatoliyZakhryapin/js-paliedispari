@@ -56,7 +56,13 @@ function numberRandomPc(min, max) {
 const numberPc = numberRandomPc(min,max);
 console.log("numberPc", numberPc)
 //     - Stabilire il vincitore 
-//         - Creamo la funzione "sum" e passiamo come i dati di ingresso il "numberUser" e il valore che ritorna da funzione "numberRandomPc"
+//         - Creamo la funzione "sum" e passiamo come i dati di ingresso il "numberChoice" e il valore "numberPc""
+function sum2number(x,y){
+    let sum = parseInt(x) + parseInt(y);
+    return sum;
+}
+const sum = sum2number(numberChoice, numberPc)
+console.log("sum", sum)
 //         - Stabilire se dalla funzione "somma" ci torna il numero pari a dispari
 //             - Creare funzione "sumIsEven"
 //         - Creare operatore logico per stabilire il vincitore 
