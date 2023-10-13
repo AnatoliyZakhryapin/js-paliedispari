@@ -24,6 +24,7 @@ if (userChoice === "pari"){
 } else {
     isEven = false;
 }
+const choiceUser = isEven;
 console.log("isEvene", isEven);
 //     - Inserimento un numero da 1 a 5
 //         - Dichiarare la funzione "numberUserPrompt"
@@ -65,9 +66,26 @@ const sum = sum2number(numberChoice, numberPc)
 console.log("sum", sum)
 //         - Stabilire se dalla funzione "somma" ci torna il numero pari a dispari
 //             - Creare funzione "sumIsEven"
+function sumIsEven(sum){
+    if(sum % 2 == 0){
+        const answer = true;
+        return answer;
+    } else {
+        const answer = false;
+        return answer;
+    }
+}
 //         - Creare operatore logico per stabilire il vincitore 
 //         SE (choiceIsEven === sumIsEven){
 //             alert("Ha vinto utent" )
 //         } else {
 //             alert("Ha vinto PC")
 //         }
+if (choiceUser === sumIsEven(sum)){
+    alert("Ha vinto utent" )
+} else {
+    alert("Ha vinto PC")
+}
+   
+    
+
